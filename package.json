@@ -1,0 +1,23 @@
+{
+  "name": "bill_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "2020463_2020471",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "electron": "^18.2.4",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "electron-modal": "^1.0.0",
+    "process": "^0.11.10",
+    "uuid": "^8.3.2"
+  }
+}
